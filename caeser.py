@@ -3,8 +3,7 @@ Z_int = ord('Z')
 
 def shift_char(char_in, shift):
   char_out = ord(char_in) + shift
-  shift_amt = char_out - A_int
-  return chr(char_out) if shift_amt < 26 else chr(char_out-26)
+  return chr(char_out) if char_out <= Z_int else chr(char_out-26)
 
 str_in = raw_input("Input a string to shift:\n").upper()
 str_out = ""
