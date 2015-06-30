@@ -1,1 +1,1 @@
-# Simple Ceaser cipher for Python
+# Simple Ceasar cipher for Python
